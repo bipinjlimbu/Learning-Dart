@@ -28,4 +28,17 @@ void main() {
   print("p && q: ${p && q}"); // Logical AND
   print("p || q: ${p || q}"); // Logical OR
   print("!p: ${!p}"); // Logical NOT
+
+  //Assignment Operators
+  print("\nAssignment Operators:");
+  int c = 5;
+  print("c = $c");
+  c += 3; // c = c + 3
+  print("c += 3: $c");
+  c -= 2; // c = c - 2
+  print("c -= 2: $c");
+  c *= 4; // c = c * 4
+  print("c *= 4: $c");
+  c ~/= 3; // c = c ~/ 3
+  print("c ~/= 3: $c");
 }
