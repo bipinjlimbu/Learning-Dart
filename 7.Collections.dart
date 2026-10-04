@@ -20,4 +20,13 @@ void main() {
   print("After Adding Date: $fruits");
   fruits.remove("Banana");
   print("After Removing Banana: $fruits");
+
+  //Map
+  print("\nMap:");
+  Map<String, int> ages = {"Alice": 25, "Bob": 30, "Charlie": 35};
+  print("Ages: $ages");
+  ages["David"] = 40;
+  print("After Adding David: $ages");
+  ages.remove("Bob");
+  print("After Removing Bob: $ages");
 }
