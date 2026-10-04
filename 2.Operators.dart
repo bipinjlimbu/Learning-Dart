@@ -61,4 +61,13 @@ void main() {
   print("\nNull-aware Operators:");
   String? name;
   print("name ?? 'Unknown': ${name ?? 'Unknown'}");
+
+  //Increment and Decrement Operators
+  print("\nIncrement and Decrement Operators:");
+  int count = 0;
+  print("Initial count: $count");
+  count++; // Increment
+  print("After count++: $count");
+  count--; // Decrement
+  print("After count--: $count");
 }
