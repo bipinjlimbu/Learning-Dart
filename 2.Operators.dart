@@ -57,11 +57,6 @@ void main() {
   String result = (score >= 60) ? "Pass" : "Fail";
   print("Score: $score, Result: $result");
 
-  //Null-aware Operators
-  print("\nNull-aware Operators:");
-  String? name;
-  print("name ?? 'Unknown': ${name ?? 'Unknown'}");
-
   //Increment and Decrement Operators
   print("\nIncrement and Decrement Operators:");
   int count = 0;
