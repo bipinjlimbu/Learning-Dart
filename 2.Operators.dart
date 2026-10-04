@@ -50,4 +50,10 @@ void main() {
   print("m | n: ${m | n}"); // Bitwise OR
   print("m ^ n: ${m ^ n}"); // Bitwise XOR
   print("~m: ${~m}"); // Bitwise NOT
+
+  //Ternary Operator
+  print("\nTernary Operator:");
+  int score = 85;
+  String result = (score >= 60) ? "Pass" : "Fail";
+  print("Score: $score, Result: $result");
 }
