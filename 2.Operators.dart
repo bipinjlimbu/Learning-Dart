@@ -41,4 +41,13 @@ void main() {
   print("c *= 4: $c");
   c ~/= 3; // c = c ~/ 3
   print("c ~/= 3: $c");
+
+  //Bitwise Operators
+  print("\nBitwise Operators:");
+  int m = 6; // 0110 in binary
+  int n = 3; // 0011 in binary
+  print("m & n: ${m & n}"); // Bitwise AND
+  print("m | n: ${m | n}"); // Bitwise OR
+  print("m ^ n: ${m ^ n}"); // Bitwise XOR
+  print("~m: ${~m}"); // Bitwise NOT
 }
