@@ -56,4 +56,9 @@ void main() {
   int score = 85;
   String result = (score >= 60) ? "Pass" : "Fail";
   print("Score: $score, Result: $result");
+
+  //Null-aware Operators
+  print("\nNull-aware Operators:");
+  String? name;
+  print("name ?? 'Unknown': ${name ?? 'Unknown'}");
 }
