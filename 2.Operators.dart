@@ -1,7 +1,6 @@
 void main() {
   //Arithmetic Operators
   print("Arithmetic Operators:");
-
   int a = 10;
   int b = 3;
   print("a + b = ${a + b}"); // Addition
@@ -21,4 +20,12 @@ void main() {
   print("x < y: ${x < y}"); // Less than
   print("x >= y: ${x >= y}"); // Greater than or equal to
   print("x <= y: ${x <= y}"); // Less than or equal to
+
+  //Logical Operators
+  print("\nLogical Operators:");
+  bool p = true;
+  bool q = false;
+  print("p && q: ${p && q}"); // Logical AND
+  print("p || q: ${p || q}"); // Logical OR
+  print("!p: ${!p}"); // Logical NOT
 }
